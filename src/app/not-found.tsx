@@ -3,6 +3,7 @@
 import Link from "next/link";
 import motion from "@/components/util/safe-motion";
 
+export const dynamic = 'force-dynamic';
 
 export default function NotFound() {
   return (
