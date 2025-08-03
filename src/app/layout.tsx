@@ -5,6 +5,8 @@ import Header from "@/components/enhanced/header";
 import Footer from "@/components/enhanced/footer";
 import Background from "@/components/enhanced/background";
 
+export const dynamic = 'force-dynamic'; // force runtime rendering
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
